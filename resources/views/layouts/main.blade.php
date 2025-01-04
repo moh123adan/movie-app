@@ -64,10 +64,38 @@
                         <span class="text-xl font-semibold">Movie App</span>
                     </a>
                 </li>
+
+                {{-- NAVBAR --}}
                 <li class="ml-16">
+                    <a href="#" class="hover:text-gray-300">Home</a>
+                </li>
+
+                <li class="ml-6">
                     <a href="#" class="hover:text-gray-300">Movies</a>
                 </li>
+                <li class="ml-6">
+                    <a href="#" class="hover:text-gray-300">Tv Shows</a>
+                </li>
+                <li class="ml-6">
+                    <a href="#" class="hover:text-gray-300">Actors</a>
+                </li>
             </ul>
+
+            {{-- search bar --}}
+            <div class="flex items-center">
+                <div class="relative">
+                    <input type="text"
+                        class="bg-gray-800 text-sm rounded-full w-64 px-4 pl-8 py-1 focus:outline-none focus:shadow-outline"
+                        placeholder="Search">
+                    <div class="absolute top-0 left-0 flex items-center h-full ml-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4 text-gray-500">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
 
