@@ -95,6 +95,11 @@
                         </svg>
                     </div>
                 </div>
+                <div class="ml-4">
+                    <a href="#">
+                        <img src="/images/avatar.png" alt="avatar" class="rounded-full w-8 h-8">
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
