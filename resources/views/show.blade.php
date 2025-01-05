@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="movie-info border-b border-gray-800">
-        <div class="container mx-auto px-4 py-16 flex">
-            <img src="/images/parasite.jpg" alt="parasite" class="w-96">
-            <div class="ml-24">
+        <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
+            <img src="/images/parasite.jpg" alt="parasite" class="w-64 md:w-96">
+            <div class="md:ml-24">
                 <h2 class="text-4xl font-semibold">Parasite (2019)</h2>
-                <div class="flex items-center text-gray-400 text-sm gap-1 mt-1">
+                <div class="flex flex-wrap items-center text-gray-400 text-sm gap-1 mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                         class="w-4 text-orange-500">
                         <path fill-rule="evenodd"
