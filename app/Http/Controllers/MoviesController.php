@@ -13,11 +13,13 @@ class MoviesController
     public function index()
     {
         $popularMovies = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/movie/popular')->json();
+            ->get('https://api.themoviedb.org/3/movie/popular')->json()['results'];
 
-        dd($popularMovies);
+        dump($popularMovies);
 
-        return view('index');
+        return view('index', [
+            'popularMovies' => $popularMovies
+        ]);
     }
 
     /**
