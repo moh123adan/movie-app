@@ -81,7 +81,7 @@
                     <div class="md:flex md:items-center">
                         <a href="#"
                             class="block mt-4 md:inline-block md:mt-0 hover:text-gray-300 md:ml-6">Home</a>
-                        <a href="/movie"
+                        <a href="/movies"
                             class="block mt-4 md:inline-block md:mt-0 hover:text-gray-300 md:ml-6">Movies</a>
                         <a href="#" class="block mt-4 md:inline-block md:mt-0 hover:text-gray-300 md:ml-6">TV
                             Shows</a>
